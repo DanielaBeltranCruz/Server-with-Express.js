@@ -1,4 +1,4 @@
-# 🌟 App con Express.js
+# 🌟 Servidor con Express.js
 
 Ejemplo de creación de una app usando **Express.js**.
 
