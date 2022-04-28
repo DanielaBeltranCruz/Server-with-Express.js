@@ -6,7 +6,7 @@ Ejemplo de creación de una app usando **Express.js**.
 
 1. Crear un proyecto nuevo `express_basic`.
     * Crea una carpeta con ese nombre.
-    * Ejecuta el comando `npm init` y que se cree el archivo `package.json`.
+    * Ejecuta el comando `npm init` y que se crea el archivo `package.json`.
 2. Instala la dependencia express: `npm install express --save`.
 3. Crea un archivo llamado `app.js` y crea la app de express:
 ```js
@@ -41,7 +41,7 @@ app.get('/launchx', (req, res) => {
 })
 ```
 7. Después de agregar el código, recuerda parar el servidor y volver a iniciarlo para poder ver los cambios.
-> Para detener el servidor es ctrl + c.
+> Para detener el servidor es `ctrl + c`.
 8. Verifica que puedas entrar a `localhost:3000/launchx`.
 
 ## 🔵 Agregar nueva ruta para regresar un objeto
@@ -55,7 +55,7 @@ app.get('/explorersInNode', (req, res) => {
     res.send(explorer)
 })
 ```
-10. Deten el server, y vuelve a levantarlo para que tome tus cambios recientes `node app.js`.
+10. Deten el server, y vuelve a levantarlo para que tome tus cambios recientes.
 11. Entra a la url `localhost:3000/explorersInNode` para verificar que regresa el objeto que indicaste.
 
 ## 🔵 Agregar una nueva ruta que reciba Query Params
