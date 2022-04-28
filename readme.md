@@ -1,6 +1,6 @@
 # 🌟 Servidor con Express.js
 
-Ejemplo de creación de una app usando **Express.js**.
+Ejemplo de creación de un servidor usando **Express.js**.
 
 ## 🔵 Crear servidor
 
@@ -29,6 +29,8 @@ app.listen(port, () => {
 ```
 4. Corre la app con el comando `node app.js`. Esto hará que la app se quede en ejecución.
 5. Entra a al navegador a `localhost:3000`.
+   
+![Captura del navegador](https://github.com/DanielaBeltranCruz/Server-with-Express.js/blob/master/images/01.PNG)
 
 ## 🔵 Agregar una nueva ruta
 
@@ -43,6 +45,8 @@ app.get('/launchx', (req, res) => {
 7. Después de agregar el código, recuerda parar el servidor y volver a iniciarlo para poder ver los cambios.
 > Para detener el servidor es `ctrl + c`.
 8. Verifica que puedas entrar a `localhost:3000/launchx`.
+   
+![Captura del navegador](https://github.com/DanielaBeltranCruz/Server-with-Express.js/blob/master/images/02.PNG)
 
 ## 🔵 Agregar nueva ruta para regresar un objeto
 
@@ -58,6 +62,8 @@ app.get('/explorersInNode', (req, res) => {
 10. Deten el server, y vuelve a levantarlo para que tome tus cambios recientes.
 11. Entra a la url `localhost:3000/explorersInNode` para verificar que regresa el objeto que indicaste.
 
+![Captura del navegador](https://github.com/DanielaBeltranCruz/Server-with-Express.js/blob/master/images/03.PNG)
+
 ## 🔵 Agregar una nueva ruta que reciba Query Params
 
 12. Agrega una nueva ruta, indica que recibirá un parámetro: `/explorers/:explorerName`, esto indicará que `:explorerName` será un valor enviado por la url.
@@ -71,3 +77,5 @@ app.get('/explorers/:explorerName', (req, res) => {
 })
 ```
 14.  Entra a la url `localhost:3000/explorers/Daniela`.
+
+![Captura del navegador](https://github.com/DanielaBeltranCruz/Server-with-Express.js/blob/master/images/04.PNG)
